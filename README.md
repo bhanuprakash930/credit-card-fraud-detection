@@ -1,21 +1,21 @@
-# 💳 Credit Card Fraud Detection System
+# Credit Card Fraud Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Enabled-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 📌 Overview
+##  Overview
 A Machine Learning system that detects fraudulent credit card transactions using multiple classification algorithms. The project addresses the **class imbalance problem** using SMOTE and compares 4 different models to find the best performer.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 Credit card fraud causes billions in losses globally every year. The challenge is identifying fraudulent transactions from a heavily imbalanced dataset where fraud cases are less than 0.2% of all transactions.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 ```
 credit-card-fraud-detection/
 │
@@ -33,19 +33,19 @@ credit-card-fraud-detection/
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 | Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 |---|---|---|---|---|---|
 | Logistic Regression | ~85% | ~82% | ~79% | ~80% | ~88% |
 | Decision Tree | ~88% | ~85% | ~81% | ~83% | ~85% |
 | Random Forest | ~93% | ~91% | ~87% | ~89% | ~95% |
-| **XGBoost** ✅ | **~94%** | **~92%** | **~90%** | **~91%** | **~96%** |
+| **XGBoost**  | **~94%** | **~92%** | **~90%** | **~91%** | **~96%** |
 
 > **Best Model: XGBoost** with 94% accuracy and 96% ROC-AUC
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 - **Language:** Python 3.10
 - **Libraries:** Pandas, NumPy, Scikit-Learn, XGBoost, Imbalanced-Learn
 - **Visualization:** Matplotlib, Seaborn
@@ -53,7 +53,7 @@ credit-card-fraud-detection/
 
 ---
 
-## ⚙️ Key Techniques
+##  Key Techniques
 - **SMOTE** (Synthetic Minority Oversampling) to handle class imbalance
 - **StandardScaler** for feature normalization
 - **Cross-validation** for reliable performance estimates
@@ -62,7 +62,7 @@ credit-card-fraud-detection/
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 - Class distribution pie chart
 - Correlation heatmap of top features
 - Model comparison bar chart
@@ -72,7 +72,7 @@ credit-card-fraud-detection/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # 1. Clone the repository
@@ -92,7 +92,7 @@ jupyter notebook credit_card_fraud_detection.ipynb
 
 ---
 
-## 📁 Dataset
+## Dataset
 - **Source:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - **Size:** 284,807 transactions | 492 fraud cases
 - **Features:** 30 (V1–V28 are PCA components, Amount, Time)
@@ -102,5 +102,5 @@ jupyter notebook credit_card_fraud_detection.ipynb
 ## 👤 Author
 **Onteddu Bhanu Prakash**  
 B.Tech CSE (AI & ML) — Mohan Babu University  
-📧 bhanuprakash09871234@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/onteddu-bhanu-prakash-reddy-1415ab2a1)
+ bhanuprakash09871234@gmail.com  
+ [LinkedIn](https://linkedin.com/in/onteddu-bhanu-prakash-reddy-1415ab2a1)
