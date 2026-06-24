@@ -99,7 +99,7 @@ jupyter notebook credit_card_fraud_detection.ipynb
 
 ---
 
-## 👤 Author
+##  Author
 **Onteddu Bhanu Prakash**  
 B.Tech CSE (AI & ML) — Mohan Babu University  
  bhanuprakash09871234@gmail.com  
